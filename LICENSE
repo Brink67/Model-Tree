@@ -8,7 +8,7 @@ Original concept and core logic by mlabonne
 Caching implementation originally contributed by leonardlin
 (https://huggingface.co/leonardlin)
 
-Local adaptation (pywebview GUI, vis.js rendering) by the TheBrinkster.
+Local adaptation (pywebview GUI, vis.js rendering) by TheBrinkster.
 (https://huggingface.co/TheBrinkster)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
