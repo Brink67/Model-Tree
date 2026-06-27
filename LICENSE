@@ -1,6 +1,15 @@
 MIT License
 
-Copyright (c) 2026 TheBrinkster
+Copyright (c) 2026 Model Family Tree Contributors
+
+Original concept and core logic by mlabonne
+(https://huggingface.co/spaces/mlabonne/model-family-tree)
+
+Caching implementation originally contributed by leonardlin
+(https://huggingface.co/leonardlin)
+
+Local adaptation (pywebview GUI, vis.js rendering) by the TheBrinkster.
+(https://huggingface.co/TheBrinkster)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +28,32 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+This software uses the following third-party libraries:
+
+vis-network (vis.js)
+  License: Apache 2.0
+  Copyright (c) 2010-2024 visjs contributors
+  https://github.com/visjs/vis-network
+
+pywebview
+  License: BSD 3-Clause
+  Copyright (c) Roman Sirokov and contributors
+  https://github.com/r0x0r/pywebview
+
+networkx
+  License: BSD 3-Clause
+  Copyright (c) 2004-2024 NetworkX Developers
+  https://github.com/networkx/networkx
+
+huggingface_hub
+  License: Apache 2.0
+  Copyright (c) Hugging Face
+  https://github.com/huggingface/huggingface_hub
+
+requests
+  License: Apache 2.0
+  Copyright (c) Kenneth Reitz
+  https://github.com/psf/requests
